@@ -1,0 +1,405 @@
+2000
+###################################################################################
+#							0-10 : DEFAULT DIALOGS								  #
+###################################################################################
+<Dialog>
+	P_Index= "0"
+	P_Type= "End"
+</Dialog>
+<Dialog>
+	P_Index= "1"
+	P_Type= "StartQuest"
+</Dialog>
+<Dialog>
+	P_Index= "2"
+	P_Type= "SellItem"
+</Dialog>
+<Dialog>
+	P_Index= "3"
+	P_Type= "ChangeMap"
+</Dialog>
+<Dialog>
+	P_Index= "4"
+	P_Type= "HealCreatures"
+</Dialog>
+<Dialog>
+	P_Index= "5"
+	P_Type= "SellItem"
+</Dialog>
+<Dialog>
+	P_Index= "6"
+	P_Type= "SellItem"
+</Dialog>
+<Dialog>
+	P_Index= "7"
+	P_Type= "SellItem"
+</Dialog>
+<Dialog>
+	P_Index= "8"
+	P_Type= "SellItem"
+</Dialog>
+<Dialog>
+	P_Index= "9"
+	P_Type= "SellItem"
+</Dialog>
+<Dialog>
+	P_Index= "10"
+	P_Type= "End"
+	P_Text= "Goodbye."
+</Dialog>
+###################################################################################
+#							END OF DEFAULT DIALOGS								  #
+###################################################################################
+###################################################################################
+#							11-19 : TUTORIAL DIALOGS							  #
+###################################################################################
+<Dialog>
+	P_Index= "11"
+	P_Type= "Message"
+	P_Text= "Hello Player, You're on the tutorial map of Ozixya, I'll teach you the basics of the game so you can go out there."
+	P_StatAns= "00012Explain me the movements."
+	P_StatAns= "00013How do fights work ?"
+	P_StatAns= "00014What about items ?"
+	P_StatAns= "00015Explain me quests, please."
+	P_StatAns= "00010Thank you for everything, goodbye."
+</Dialog>
+<Dialog>
+	P_Index= "12"
+	P_Type= "Message"
+	P_Text= "You can move with the four arrow keys.\nYou move on different maps. Maps are made of 18*12 squares. You can walk on some squares and you cannot on others.\nEach time you visit a square, it might trigger an action (like giving you an object, starting a fight or changing map).\nBeware that every square might be an illusion. It's not because you see a barrier that there is a barrier. You can experience that in the North-West park of this map."
+	P_StatAns= "00011Ok."
+</Dialog>
+<Dialog>
+	P_Index= "13"
+	P_Type= "Message"
+	P_Text= "You own creatures that will fight for you. \nEach time you face an other creature, you can select the one that will fight for you. Many creatures can fight against a single opponent. \nOnce you killed the other creature, your creatures which participated to the fight will earn experience, helping them increasing their level and strength. Creatures have mana and life, and their attacks can also damage themselves. You can see the creatures you own by pressing W. \nCreatures can be put together with the according Fusion Stone to create an even better creature.\nGo in one of the parks of this map and fight a creature."
+	P_StatAns= "00011Ok."
+</Dialog>
+<Dialog>
+	P_Index= "14"
+	P_Type= "Message"
+	P_Text= "Items are found on maps, or given by NPCs. \nThey are stored in your inventory, which has only 9 slots. You can suppress an item you own by selecting it and pressing the delete key. \nTo show/hide your inventory just press I. \nMost Items can be used (potions, recall scrolls, fusion stones...).\nYou will find an item between the two columns on my right."
+	P_StatAns= "00011Ok."
+</Dialog>
+<Dialog>
+	P_Index= "15"
+	P_Type= "Message"
+	P_Text= "Quests are given by NPCs, like me. You will find them mostly in cities or in hidden maps. \nYou can dialog with them, just like what you're doing. You have to complete the quests they give you. You can show/hide quests by pressing J (Journal). \nEach quests consists of one or more actions to accomplish. Once you accomplished a task, a [DONE] text is shown before the task. Once you completed all tasks, the quest must be rewarded, and you do that by talking to the NPC about what you had to do."
+	P_StatAns= "10000Can i do a quest for you ?"
+	P_StatAns= "00011Ok."
+</Dialog>
+<Dialog>
+	P_Index= "16"
+	P_Type= "Message"
+	P_Text= "I want you to find an apple and kill a Payssa."
+	P_StatAns= "00011Ok."
+</Dialog>
+<Dialog>
+	P_Index= "17"
+	P_Type= "Message"
+	P_Text= "Good ! Here's your reward. That's how to be rewarded."
+	P_StatAns= "00011Well, thank you." 
+</Dialog>
+<Dialog>
+	P_Index= "18"
+	P_Type= "Message"
+	P_Text= "Thanks you did that."
+	P_StatAns= "00011Ok."
+</Dialog>
+###################################################################################
+#							END OF TUTORIAL DIALOGS								  #
+###################################################################################
+###################################################################################
+#						21-22: NURSE/SELLER DIALOGS								  #
+###################################################################################
+<Dialog>
+	P_Index= "21"
+	P_Type= "Message"
+	P_Text= "Hello Nimur, I'm the Wym's nurse. Would you like to heal your creatures for 6 Gold ?"
+	P_StatAns= "00004Yes"
+	P_StatAns= "00000No thanks"
+</Dialog>
+<Dialog>
+	P_Index= "22"
+	P_Type= "Message"
+	P_Text= "Hello Nimur, Would you like to buy some objects ?"
+	P_StatAns= "20000Yes"
+	P_StatAns= "00000No thanks"
+</Dialog>
+###################################################################################
+#						END OF NURSE/SELLER DIALOGS								  #
+###################################################################################
+###################################################################################
+#					30-99: CLASSICAL END/QUESTS DIALOGS							  #
+###################################################################################
+<Dialog>
+	P_Index= "30"
+	P_Type= "Message"
+	P_Text= "I already know that."
+	P_StatAns= "00000Ok."
+</Dialog>
+<Dialog>
+	P_Index= "31"
+	P_Type= "Message"
+	P_Text= "It's nice that you already saw her."
+	P_StatAns= "00000Ok."
+</Dialog>
+<Dialog>
+	P_Index= "32"
+	P_Type= "Message"
+	P_Text= "Thanks you killed him."
+	P_StatAns= "00000Ok."
+</Dialog>
+###################################################################################
+#						END OF CLASSICAL END/QUESTS DIALOGS						  #
+###################################################################################
+###################################################################################
+#						100-9999 : CHARACTERS DIALOGS							  #
+###################################################################################
+#*********************************************************************************#
+#						100-120 : Velm Guardians								  #
+#*********************************************************************************#
+<Dialog>
+	P_Index= "100"
+	P_Type= "Message"
+	P_Text= "Hello Nimur. I'm one of the Velm Guardians.\nMay I help you ?"
+	P_StatAns= "00101Where am I ?"
+	P_StatAns= "00102What are wyms ?"
+	P_StatAns= "00105Tell me Velm story please."
+	P_StatAns= "00010Thanks for your time."
+</Dialog>
+<Dialog>
+	P_Index= "101"
+	P_Type= "Message"
+	P_Text= "You're on the planet Ozixya. It's been set up as a Colonie by humans 149 years ago.\nBut then wyms came..."
+	P_StatAns= "00100Ok."
+</Dialog>
+<Dialog>
+	P_Index= "102"
+	P_Type= "Message"
+	P_Text= "Wyms are creatures which invaded Ozixya 32 days ago. Maybe you are one of the recruits sent here ?"
+	P_StatAns= "00103Yes ! I'm a new recrue."
+	P_StatAns= "00104No sorry, I woke up there with no apparent reason."
+</Dialog>
+<Dialog>
+	P_Index= "103"
+	P_Type= "Message"
+	P_Text= "So you should talk to Palia Fallades.\nShe's the chief of Velm troops.\nThere's a lot to do here."
+	P_StatAns= "00100I'll find her."
+</Dialog>
+<Dialog>
+	P_Index= "104"
+	P_Type= "Message"
+	P_Text= "Hmmm I hope you're not one of them. It would be weird because you speak like us. \nBut who knows ?"
+	P_StatAns= "00103I know and I'm nothing you have to be afraid of."
+</Dialog>
+<Dialog>
+	P_Index= "105"
+	P_Type= "Message"
+	P_Text= "Velm is one of the latest advanced cities we built, we started it 2 years ago.\nThere aren't much citizens here because we haven't finished to clean the neighborhoods, so you'll see only guards and soldiers."
+	P_StatAns= "00106Continue, please."
+</Dialog>
+<Dialog>
+	P_Index= "106"
+	P_Type= "Message"
+	P_Text= "Velm is one of the latest advanced cities we built, we started it 2 years ago.\nThere aren't much citizens here because we haven't finished to clean the neighborhoods, so you'll see only guards and soldiers.\nIt's built on one of the fields where we lost the most warriors. Here died Arnaud The Great, one of the best-known warriors on Ozixya.\nWhen he came here with his troops, we started winning a lot of battles. He was teaching advanced fighting techniques in training centers."
+	P_StatAns= "00107Continue, please."
+</Dialog>
+<Dialog>
+	P_Index= "107"
+	P_Type= "Message"
+	P_Text= "When he died, he lost his sword, and a wym took it preciously to it's cavern. Find it and everyone will be greatful."
+	P_StatAns= "00108Ok"
+</Dialog>
+<Dialog>
+	P_Index= "108"
+	P_Type= "Message"
+	P_Text= "When he died, he lost his sword, and a wym took it preciously to it's cavern. Find it and everyone will be greatful.\nIf you wan't to know more, Velm is a city that has been attacked 10 times in 2 years, and that is used to control more fields on Ozixya. We train warriors there, we just have the necessary things.\n"
+	P_StatAns= "00109Ok"
+</Dialog>
+<Dialog>
+	P_Index= "109"
+	P_Type= "Message"
+	P_Text= "When he died, he lost his sword, and a wym took it preciously to it's cavern. Find it and everyone will be greatful.\nIf you wan't to know more, Velm is a city that has been attacked 10 times in 2 years, and that is used to control more fields on Ozixya. We train warriors there, we just have the necessary things.\nYou will find everything in our capital, Aftoskal. It's in the North. We're currently the only advanced city on its south."
+	P_StatAns= "00100Ok, thanks !"
+</Dialog>
+#*********************************************************************************#
+#						100-119 : End of Velm Guardians							  #
+#*********************************************************************************#
+#*********************************************************************************#
+#						120-1XX : Palia Fallades								  #
+#*********************************************************************************#
+<Dialog>
+	P_Index= "120"
+	P_Type= "Message"
+	P_Text= "Hello Nimur. Are you ready to help us ?"
+	P_StatAns= "00121Who are you ?"
+	P_StatAns= "00125What can i do for you ?"
+	P_StatAns= "00010I have to go."
+</Dialog>
+<Dialog>
+	P_Index= "121"
+	P_Type= "Message"
+	P_Text= "I'm Palia Fallades. I'm the chief here.\nI came here 5 months ago to replace the former chief, who has been promoted."
+	P_StatAns= "00122What else ?"
+</Dialog>
+<Dialog>
+	P_Index= "122"
+	P_Type= "Message"
+	P_Text= "I'm Palia Fallades. I'm the chief here.\nI came here 5 months ago to replace the former chief, who has been promoted.\nI've been trained by Arnaud The Great. He taugh me everything. I couldn't lead captured wyms before these lessons he gave me."
+	P_StatAns= "00123What ? I Can lead wyms. I already have one."
+</Dialog>
+<Dialog>
+	P_Index= "123"
+	P_Type= "Message"
+	P_Text= "What ? You own a Wym ? Have you followed special lessons ? Where are you from ?"
+	P_StatAns= "00124No I didn't follow anything. I just woke up on this planet."
+</Dialog>
+<Dialog>
+	P_Index= "124"
+	P_Type= "Message"
+	P_Text= "*suspiciously* Hmm fine."
+	P_StatAns= "00120..."
+</Dialog>
+<Dialog>
+	P_Index= "125"
+	P_Type= "Message"
+	P_Text= "Yes you can do a lot of things for me."
+	P_StatAns= "00126Do you have an easy task ?"
+	P_StatAns= "10002Give me my second quest please !"
+	P_StatAns= "10003Other things to do ?"
+	P_StatAns= "10004I want to work for you again."
+	P_StatAns= "00120I changed my mind."
+</Dialog>
+<Dialog>
+	P_Index= "126"
+	P_Type= "Message"
+	P_Text= "So for your first quest, I will ask you to go to the West of Velm. You'll be in the dark Woods. I'll just ask you to kill a galouf and a payssa there."
+	P_StatAns= "10001Ok I'll do it !"
+	P_StatAns= "00120Sorry I can't."
+</Dialog>
+<Dialog>
+	P_Index= "127"
+	P_Type= "Message"
+	P_Text= "Good luck. Talk to me again when you finished this."
+	P_StatAns= "00120Ok."
+</Dialog>
+<Dialog>
+	P_Index= "128"
+	P_Type= "Message"
+	P_Text= "Fine. So you're able to fight. I still wonder how you master wyms.\nAnyway here's your reward."
+	P_StatAns= "00125Ok."
+</Dialog>
+<Dialog>
+	P_Index= "129"
+	P_Type= "Message"
+	P_Text= "I've other things for you to do now."
+	P_StatAns= "00125Ok."
+</Dialog>
+<Dialog>
+	P_Index= "130"
+	P_Type= "Message"
+	P_Text= "As a second task. I need you to talk to Gamdal and tell him our defenses are now ready, so he can start production. He will understand.\nYou'll find him in the fields. Southern the four ways."
+	P_StatAns= "00120I will do it."
+</Dialog>
+<Dialog>
+	P_Index= "131"
+	P_Type= "Message"
+	P_Text= "Thanks ! That was important for our city. You helped us a lot.\nHere's your reward."
+	P_StatAns= "00125Thanks to you !"
+</Dialog>
+<Dialog>
+	P_Index= "132"
+	P_Type= "Message"
+	P_Text= "I've other things for you to do now."
+	P_StatAns= "00125Ok."
+</Dialog>
+<Dialog>
+	P_Index= "133"
+	P_Type= "Message"
+	P_Text= "Now you've shown some skills, i'll ask you to explore the world around the four ways, and to find Arnaud The Great's sword."
+	P_StatAns= "00134What ? Guardians told me it's been lost ?"
+</Dialog>
+<Dialog>
+	P_Index= "134"
+	P_Type= "Message"
+	P_Text= "Yes but you will find it, I don't doubt it.\nAll zones around the four ways have not been explored yet."
+	P_StatAns= "00120Ok."
+</Dialog>
+<Dialog>
+	P_Index= "135"
+	P_Type= "Message"
+	P_Text= "Thanks ! It's amazing. I'm so so glad you found it. It's amazing. I give you a lot of stuff this time."
+	P_StatAns= "00125Thanks!"
+</Dialog>
+<Dialog>
+	P_Index= "136"
+	P_Type= "Message"
+	P_Text= "I've other things for you to do now."
+	P_StatAns= "00125Ok."
+</Dialog>
+<Dialog>
+	P_Index= "137"
+	P_Type= "Message"
+	P_Text= "There is a slot in the sword you gave me, that you may have noticed. There's probably a gem that fits with it. If you find this gem, bring it to me and I'll see what it's about."
+	P_StatAns= "00120Sure!"
+</Dialog>
+<Dialog>
+	P_Index= "138"
+	P_Type= "Message"
+	P_Text= "Hey ! I've put the gem into the sword, and..."
+	P_StatAns= "00139What, What ?"
+</Dialog>
+<Dialog>
+	P_Index= "139"
+	P_Type= "Message"
+	P_Text= "Hey ! I've put the gem into the sword, and...\nThe sword started shining !"
+	P_StatAns= "00140And ???"
+</Dialog>
+<Dialog>
+	P_Index= "140"
+	P_Type= "Message"
+	P_Text= "Hey ! I've put the gem into the sword, and...\nThe sword started shining !\n\nAnd now i've got this. Take it, you deserve it."
+	P_StatAns= "00120Yeah ! I'm so glad, thank you !!"
+</Dialog>
+<Dialog>
+	P_Index= "141"
+	P_Type= "Message"
+	P_Text= "Now you can visit the world. I heard there are some Wyms named Gayon and Twister. Try to catch them !"
+	P_StatAns= "00120..."
+</Dialog>
+#*********************************************************************************#
+#						120-1XX : End Of Palia Fallades							  #
+#*********************************************************************************#
+#*********************************************************************************#
+#								170-179 : Gamdal								  #
+#*********************************************************************************#
+<Dialog>
+	P_Index= "170"
+	P_Type= "Message"
+	P_Text= "Hi. What can i do for you ?"
+	P_StatAns= "00171I came here to tell you to start the production."
+	P_StatAns= "00010Nothing."
+</Dialog>
+<Dialog>
+	P_Index= "171"
+	P_Type= "Message"
+	P_Text= "What production ?"
+	P_StatAns= "00172Drugs."
+	P_StatAns= "00173Palia Fallades told me you would understand."
+</Dialog>
+<Dialog>
+	P_Index= "172"
+	P_Type= "Message"
+	P_Text= "Get out before I become angry."
+	P_StatAns= "00000Ok ok, don't hit me."
+</Dialog>
+<Dialog>
+	P_Index= "173"
+	P_Type= "Message"
+	P_Text= "Oh yes ! But how can I trust you ? \nBring me 10 poppies and I'll trust you.\nAfter that report your mission to Palia. My dear Palia..."
+	P_StatAns= "00010Fine fine."
+</Dialog>
+#*********************************************************************************#
+#							170-179 : End of Gamdal								  #
+#*********************************************************************************#

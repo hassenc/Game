@@ -1,0 +1,142 @@
+
+#reference 0
+<creature>
+P_Name= "Payssa"
+P_Life= "25"
+P_Mana="25"
+P_Texture="media/creatures/Payssa.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0050000000000000000099,badaboum_0200000000060000000099,"
+</creature>
+
+#reference 1
+<creature>
+P_Name= "Galouf"
+P_Life= "30"
+P_Mana="20"
+P_Texture="media/creatures/Galouf.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0070000000000000000099,badaboum_0100000000100000000099,"
+</creature>
+
+
+#reference 2
+<creature>
+P_Name= "Grey Alouch"
+P_Life= "30"
+P_Mana="15"
+P_Texture="media/creatures/GreyAlouch.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0060000000000000000199,Acid Milk_0120000000500000000399,"
+</creature>
+
+#reference 3
+<creature>
+P_Name= "Blue Alouch"
+P_Life= "25"
+P_Mana="20"
+P_Texture="media/creatures/BlueAlouch.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0090000000000000000199,Clippers Attack_0160050000100050000399,"
+</creature>
+
+#reference 4
+<creature>
+P_Name= "Red Alouch"
+P_Life= "55"
+P_Mana="40"
+P_Texture="media/creatures/RedAlouch.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0130000000000000000199,Acid Milk_0250000001000000000399,Clippers Attack_0200050000200100000399,"
+</creature>
+
+#reference 5
+<creature>
+P_Name= "Little Sofa"
+P_Life= "20"
+P_Mana="15"
+P_Texture="media/creatures/LittleSofa.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0070000000000000000099,Throw Pillow_0100050000200000000699,Deadly Dust_0400000200100000001099,"
+</creature>
+
+#reference 6
+<creature>
+P_Name= "Medium Sofa"
+P_Life= "35"
+P_Mana="25"
+P_Texture="media/creatures/MediumSofa.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0100000000000000000099,Throw Pillow_0150100000300000000699,Deadly Dust_0800000250200000001099,"
+</creature>
+
+#reference 7
+<creature>
+P_Name= "Big Sofa"
+P_Life= "50"
+P_Mana="40"
+P_Texture="media/creatures/BigSofa.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0200000000000000000099,Throw Pillow_0300150000400000000699,Deadly Dust_1200000300400000001099,"
+</creature>
+
+#reference 8
+<creature>
+P_Name= "Gayon"
+P_Life= "50"
+P_Mana="5"
+P_Texture="media/creatures/Gayon.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0100000000000000000099,Big Drill_0150000000010000000311,Penetrating Drill_0180000000010000001299,Clone_0000000000201000000799,"
+</creature>
+
+#reference 9
+<creature>
+P_Name= "Twister"
+P_Life= "20"
+P_Mana="100"
+P_Texture="media/creatures/Twister.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0100000000000000000099,DDOS Attack_0500000000300000000199,Anonymous DDOS_0900000000400000001399,"
+</creature>
+
+#reference 10
+<creature>
+P_Name= "Gayster"
+P_Life= "100"
+P_Mana="100"
+P_Texture="media/creatures/Gayster.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0170000000000000000099,Penetrating DDOS_1000000000300000000199,Anonymous Drill_1400000000400000001399,Virtual Clone_0200000000301400000799,"
+</creature>
+
+#reference 11
+<creature>
+P_Name= "Earth Snake"
+P_Life= "40"
+P_Mana="10"
+P_Texture="media/creatures/EarthSnake.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0080000000000000000099,Tunnel_0200000000050000000399,Earthquake_0900000200100000000699,"
+</creature>
+
+#reference 12
+<creature>
+P_Name= "Red Snake"
+P_Life= "60"
+P_Mana="30"
+P_Texture="media/creatures/RedSnake.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0070000000000000000099,Fire Wind_0160000000100000000499,Solar Pulse_0601000000300000000799,"
+</creature>
+
+#reference 13
+<creature>
+P_Name= "Fire Snake"
+P_Life= "100"
+P_Mana="50"
+P_Texture="media/creatures/FireSnake.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0150000000000000000099,Fire Tunnel_1300000000200000000599,Solar Pulse_0802000000300000000899,"
+</creature>
+

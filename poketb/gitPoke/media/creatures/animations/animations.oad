@@ -1,0 +1,9 @@
+
+<Animation>
+#	P_Image= "startTime (float), length(float (s)), position, image"
+	P_Image= "0;0.5;00000000;media/creatures/animations/hit.png"
+	P_Image= "1;0.5;00000000;media/creatures/animations/hit.png"
+	P_Image= "2;0.5;00000000;media/creatures/animations/hit.png"
+	P_Image= "3;0.5;00000000;media/creatures/animations/hit.png"
+</Animation>
+

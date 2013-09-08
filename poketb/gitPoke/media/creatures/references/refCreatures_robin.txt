@@ -1,0 +1,93 @@
+
+
+<creature>
+P_Name= "Payssa"
+P_Life= "25"
+P_Mana="25"
+P_Texture="media/creatures/Payssa.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0050000000000000000099,badaboum_0200000000060000000099,"
+</creature>
+
+<creature>
+P_Name= "Galouf"
+P_Life= "30"
+P_Mana="20"
+P_Texture="media/creatures/Galouf.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0070000000000000000099,badaboum_0100000000100000000099,"
+</creature>
+
+<creature>
+P_Name= "Little Sofa"
+P_Life= "20"
+P_Mana="15"
+P_Texture="media/creatures/LittleSofa.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0070000000000000000099,Throw Pillow_0100050000200000000699,Deadly Dust_0400000200100000001099,"
+</creature>
+
+<creature>
+P_Name= "Medium Sofa"
+P_Life= "35"
+P_Mana="25"
+P_Texture="media/creatures/MediumSofa.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0100000000000000000099,Throw Pillow_0150100000300000000699,Deadly Dust_0800000250200000001099,"
+</creature>
+
+<creature>
+P_Name= "Big Sofa"
+P_Life= "50"
+P_Mana="40"
+P_Texture="media/creatures/BigSofa.png"
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0200000000000000000099,Throw Pillow_0300150000400000000699,Deadly Dust_1200000300400000001099,"
+</creature>
+
+<creature>
+P_Name= "Wim6"
+P_Life= "100"
+P_Mana="100"
+P_Texture=""
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0100100100100100100699,badaboum_0100100100100100100799,"
+</creature>
+
+<creature>
+P_Name= "Wim7"
+P_Life= "100"
+P_Mana="100"
+P_Texture=""
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0100100100100100100699,badaboum_0100100100100100100799,"
+</creature>
+
+<creature>
+P_Name= "Wim8"
+P_Life= "100"
+P_Mana="100"
+P_Texture=""
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0100100100100100100699,badaboum_0100100100100100100799,"
+</creature>
+
+<creature>
+P_Name= "Wim9"
+P_Life= "100"
+P_Mana="100"
+P_Texture=""
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0100100100100100100699,badaboum_0100100100100100100799,"
+</creature>
+
+<creature>
+P_Name= "Wim10"
+P_Life= "100"
+P_Mana="100"
+P_Texture=""
+#FigtAction (Name string,lifeDamage (3),manaDamage (3),lifeCost (3),manaCost (3),lifeGain (3),manaGain (3),showingLevel (2),hidingLevel (2))
+P_Actions="Attack_0100100100100100100699,badaboum_0100100100100100100799,"
+</creature>
+
+#Pour les animations et sons il suffit de leur donner les nons des attaques exemple sound_Attack

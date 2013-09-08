@@ -1,0 +1,48 @@
+6
+<NPC>
+	P_Name= "Tutorial Guy"
+	P_Dialog= "11"
+	P_Texture= "media/characters/npc/pnj2.png"
+	P_Quest= "10;16;16;17;18"
+	P_Map= "990"
+	P_Position= "0803"
+</NPC>
+<NPC>
+	P_Name= "Gardien d'Ozixya"
+	P_Dialog= "100"
+	P_Texture= "media/characters/npc/guardian.png"
+	P_Map= "1"
+	P_Position= "0607"
+</NPC>
+<NPC>
+	P_Name= "Palia Fallades"
+	P_Dialog= "120"
+	P_Quest= "11;127;127;128;129"
+	P_Quest= "12;130;130;131;132"
+	P_Quest= "13;133;133;135;136"
+	P_Quest= "14;137;137;138;141"
+	P_Texture= "media/characters/npc/pnj3.png"
+	P_Map= "3"
+	P_Position= "0805"
+</NPC>
+<NPC>
+	P_Name= "Gamdal"
+	P_Dialog= "170"
+	P_Texture= "media/characters/npc/pnj2.png"
+	P_Map= "22"
+	P_Position= "0508"
+</NPC>
+<NPC>
+	P_Name= "Nurse"
+	P_Dialog= "21"
+	P_Texture= "media/characters/npc/empty.png"
+	P_Map= "10"
+	P_Position= "0705"
+</NPC>
+<NPC>
+	P_Name= "Merchant"
+	P_Dialog= "22"
+	P_Texture= "media/characters/npc/empty.png"
+	P_Map= "10"
+	P_Position= "0605"
+</NPC>

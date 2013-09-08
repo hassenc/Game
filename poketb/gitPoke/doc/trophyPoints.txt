@@ -1,0 +1,21 @@
+
+1 Killed wym	 	=	2 Trophy point
+1 Quest 			=	Quest Trophy points
+1 Captured wym		=	2 Trophy point
+1 Captured new wym	=	5 Trophy point
+
+Level for trophies 	= 	sqrt(Trophy Points / 20)
+
+  level		| 	   trophy		| 	gap
+	0		|	0<=		<20		|	20
+	1		|	20<=	<80		|	60
+	2		|	80<=	<180	| 	100
+	3		|	180<=	<320	|	140
+	4		|	320<=	<500	|	180
+	5		|	500<=	<720	|	220
+	6		|	720<=	<980	|	260
+	7		|	980<=	<1280	|	300
+	8		|	1280<=	<1620	|	340
+	9		|	1620<=	<2000	|	380
+	10		|	2000<=	<2420	|	420
+	11		|	2420<=			

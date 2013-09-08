@@ -1,0 +1,173 @@
+cd compilation
+
+COL_1="\x1b[31;01m"
+COL_2="\x1b[33;01m"
+COL_3="\x1b[32;01m"
+COL_4="\x1b[34;01m"
+COL_RESET="\x1b[39;49;00m"
+
+# compilation des fichiers de l'interface (C)
+echo -e $COL_2"Compiling "$COL_4"C files"$COL_RESET 
+echo -e $COL_3"Compiling "$COL_1"\"graphicsInterface.mli\""$COL_RESET
+camlc -c ../src/Interface/graphicsInterface.mli
+echo -e $COL_3"Compiling "$COL_1"\"fightInterface.mli\""$COL_RESET
+camlc -c ../src/Interface/fightInterface.mli
+echo -e $COL_3"Compiling "$COL_1"\"fightInterface.c (implicitly compiles graphicsInterface.c)\""$COL_RESET
+camlc -custom -c ../src/Interface/fightInterface.c
+mv ../src/Interface/*.zi .
+
+# compilation des fichiers de cryptage (C)
+echo -e $COL_2"Compiling "$COL_4"Encryption C files"$COL_RESET 
+echo -e $COL_3"Compiling "$COL_1"\"encrypter.mli\""$COL_RESET
+camlc -c ../src/encrypter.mli
+echo -e $COL_3"Compiling "$COL_1"\"encrypter.c (also compiles encrypter.h)\""$COL_RESET
+camlc -custom -c ../src/encrypter.c
+mv ../src/*.zi .
+
+# en-têtes sans dépendances : 
+echo -e $COL_2"Compiling "$COL_4"header files whithout dependencies:"$COL_RESET
+echo -e $COL_3"Compiling "$COL_1"\"texturesDatabase.mli\""$COL_RESET
+camlc -c ../src/texturesDatabase.mli
+echo -e $COL_3"Compiling "$COL_1"\"gameInformation.mli\""$COL_RESET
+camlc -c ../src/gameInformation.mli
+echo -e $COL_3"Compiling "$COL_1"\"referenceCreature.mli\""$COL_RESET
+camlc -c ../src/referenceCreature.mli
+echo -e $COL_3"Compiling "$COL_1"\"object.mli\""$COL_RESET
+camlc -c ../src/object.mli
+mv ../src/*.zi .
+
+# en-têtes avec dépendances : 
+echo -e $COL_2"Compiling "$COL_4"header files whith dependencies:"$COL_RESET
+echo -e $COL_3"Compiling "$COL_1"\"fileParsing.mli\""$COL_RESET
+camlc -c ../src/fileParsing.mli
+mv ../src/*.zi .
+echo -e $COL_3"Compiling "$COL_1"\"quests.mli\""$COL_RESET
+camlc -c ../src/quests.mli
+mv ../src/*.zi .
+echo -e $COL_3"Compiling "$COL_1"\"creature.mli\""$COL_RESET
+camlc -c ../src/creature.mli
+mv ../src/*.zi .
+echo -e $COL_3"Compiling "$COL_1"\"character.mli\""$COL_RESET
+camlc -c ../src/character.mli
+mv ../src/*.zi .
+echo -e $COL_3"Compiling "$COL_1"\"maps.mli\""$COL_RESET
+camlc -c ../src/maps.mli
+mv ../src/*.zi .
+echo -e $COL_3"Compiling "$COL_1"\"NPC.mli\""$COL_RESET
+camlc -c ../src/NPC.mli
+mv ../src/*.zi .
+echo -e $COL_3"Compiling "$COL_1"\"dialogFunctions.mli\""$COL_RESET
+camlc -c ../src/dialogFunctions.mli
+mv ../src/*.zi .
+echo -e $COL_3"Compiling "$COL_1"\"main.mli\""$COL_RESET
+camlc -c ../src/main.mli 
+mv ../src/*.zi .
+echo -e $COL_3"Compiling "$COL_1"\"inventory.mli\""$COL_RESET
+camlc -c ../src/inventory.mli 
+mv ../src/*.zi .
+echo -e $COL_3"Compiling "$COL_1"\"log.mli\""$COL_RESET
+camlc -c ../src/log.mli
+mv ../src/*.zi .
+echo -e $COL_3"Compiling "$COL_1"\"dialog.mli\""$COL_RESET
+camlc -c ../src/dialog.mli
+mv ../src/*.zi .
+echo -e $COL_3"Compiling "$COL_1"\"fightFunctions.mli\""$COL_RESET
+camlc -c ../src/fightFunctions.mli
+mv ../src/*.zi .
+echo -e $COL_3"Compiling "$COL_1"\"fightDialogFunctions.mli\""$COL_RESET
+camlc -c ../src/fightDialogFunctions.mli
+mv ../src/*.zi .
+echo -e $COL_3"Compiling "$COL_1"\"informationGatherer.mli\""$COL_RESET
+camlc -c ../src/informationGatherer.mli
+mv ../src/*.zi .
+echo -e $COL_3"Compiling "$COL_1"\"fightInformationGatherer.mli\""$COL_RESET
+camlc -c ../src/fightInformationGatherer.mli
+mv ../src/*.zi .
+echo -e $COL_3"Compiling "$COL_1"\"eventFunctions.mli\""$COL_RESET
+camlc -c ../src/eventsFunctions.mli
+mv ../src/*.zi .
+echo -e $COL_3"Compiling "$COL_1"\"music.mli\""$COL_RESET
+camlc -c ../src/music.mli
+mv ../src/*.zi .
+
+# fichiers sources
+echo -e $COL_2"Compiling "$COL_4"source files:"$COL_RESET
+echo -e $COL_3"Compiling "$COL_1"\"generalFunctions.ml\""$COL_RESET
+camlc -c ../src/generalFunctions.ml
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"texturesDatabase.ml\""$COL_RESET
+camlc -c ../src/texturesDatabase.ml
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"maps.ml\""$COL_RESET
+camlc -c ../src/maps.ml
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"object.ml\""$COL_RESET
+camlc -c ../src/object.ml
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"fileParsing.ml\""$COL_RESET
+camlc -c ../src/fileParsing.ml
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"referenceCreature.ml\""$COL_RESET
+camlc -c ../src/referenceCreature.ml
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"gameInformation.ml\""$COL_RESET
+camlc -c ../src/gameInformation.ml
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"quests.ml\""$COL_RESET
+camlc -c ../src/quests.ml
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"NPC.ml\""$COL_RESET
+camlc -c ../src/NPC.ml
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"creature.ml\""$COL_RESET
+camlc -c ../src/creature.ml
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"character.ml\""$COL_RESET
+camlc -c ../src/character.ml
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"dialogFunctions.ml\""$COL_RESET
+camlc -c ../src/dialogFunctions.ml
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"fightDialogFunctions.ml\""$COL_RESET
+camlc -c ../src/fightDialogFunctions.ml
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"informationGatherer.ml\""$COL_RESET
+camlc -c ../src/informationGatherer.ml
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"fightInformationGatherer.ml\""$COL_RESET
+camlc -c ../src/fightInformationGatherer.ml
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"eventFunctions.ml\""$COL_RESET
+camlc -c ../src/eventsFunctions.ml
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"log.ml\""$COL_RESET
+camlc -c ../src/log.ml 
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"dialog.ml\""$COL_RESET
+camlc -c ../src/dialog.ml
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"fightFunctions.ml\""$COL_RESET
+camlc -c ../src/fightFunctions.ml
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"fightDialog.ml\""$COL_RESET
+camlc -c ../src/fightDialog.ml
+mv ../src/*.zi .
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"fight.ml\""$COL_RESET
+camlc -c ../src/fight.ml 
+mv ../src/*.zi .
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"inventory.ml\""$COL_RESET
+camlc -c ../src/inventory.ml 
+mv ../src/*.zo .
+echo -e $COL_3"Compiling "$COL_1"\"music.c\""$COL_RESET
+camlc -c ../src/music.c
+mv ../src/*.o .
+echo -e $COL_3"Compiling "$COL_1"\"main.ml\""$COL_RESET
+camlc -c ../src/main.ml 
+mv ../src/*.zo .
+
+# linking des fichiers .zo et .o
+echo -e $COL_2"Linking "$COL_4"object files:"$COL_RESET
+camlc -custom -o ../jeu unix.zo encrypter.o generalFunctions.zo fileParsing.zo fightInterface.o texturesDatabase.zo object.zo referenceCreature.zo gameInformation.zo maps.zo creature.zo quests.zo character.zo informationGatherer.zo fightInformationGatherer.zo eventsFunctions.zo dialogFunctions.zo NPC.zo log.zo dialog.zo fightDialogFunctions.zo fightFunctions.zo fightDialog.zo fight.zo  creature.zo character.zo inventory.zo music.o main.zo -lunix -ccopt -L/homes/rnicolle/Téléchargements/SFML-1.6/CSFML/lib -lcsfml-window -lcsfml-graphics -lcsfml-system -lcsfml-audio -lGL -lGLU -lcrypt 
+cd ../

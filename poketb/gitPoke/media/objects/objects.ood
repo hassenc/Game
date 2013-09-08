@@ -1,0 +1,189 @@
+
+# object 0
+<object>
+	P_type= "ManaPotion"
+	P_name= "Mana flask"
+	P_manaGiven= "10"
+	P_price= "20"
+	P_texture= "media/objects/textures/little_mana_potion.png"
+</object>
+
+# object 1
+<object>
+	P_type= "ManaPotion"
+	P_name= "Mana bottle"
+	P_manaGiven= "40"
+	P_price= "60"
+	P_texture= "media/objects/textures/big_mana_potion.png"
+</object>
+
+# object 2
+<object>
+	P_type= "LifePotion"
+	P_name= "Life flask"
+	P_lifeGiven= "40"
+	P_price= "20"
+	P_texture= "media/objects/textures/little_life_potion.png"
+</object>
+
+# object 3
+<object>
+	P_type= "LifePotion"
+	P_name= "Life bottle"
+	P_lifeGiven= "100"
+	P_price= "60"
+	P_texture= "media/objects/textures/big_life_potion.png"
+</object>
+
+# object 4
+<object>
+	P_type= "ExperiencePotion"
+	P_name= "Experience flask"
+	P_experienceGiven= "100"
+	P_price= "5000"
+	P_texture= "media/objects/textures/little_experience_potion.png"
+</object>
+
+# object 5
+<object>
+	P_type= "CreatureGetter"
+	P_price= "50"
+	P_texture= "media/objects/textures/wym_getter.png"
+</object>
+
+# object 6
+<object>
+	P_type= "CallBackScroll"
+	P_price= "20"
+	P_texture= "media/objects/textures/callBack.png"
+</object>
+
+# object 7
+<object>
+	P_type= "AnyObject"
+	P_name= "Strange stone"
+	P_texture= "media/objects/textures/wym_getter.png"
+</object>
+
+# object 8
+<object>
+	P_type= "FusionStone"
+	P_name= "Red Stone"
+	P_creatures= "2,3,"
+	P_buyPrice= "700"
+	P_buildPrice= "40"
+	P_resultingCreature= "4"
+	P_texture= "media/objects/textures/RedStone.png"
+</object>
+
+# object 9
+<object>
+	P_type= "FusionStone"
+	P_name= "Stone of the Fallen"
+	P_creatures= "8,9,"
+	P_buyPrice= "1000000"
+	P_buildPrice= "1000"
+	P_resultingCreature= "10"
+	P_texture= "media/objects/textures/GaysterStone.png"
+</object>
+
+# object 10
+<object>
+	P_type= "Gold"
+	P_amount= "1"
+	P_texture= "media/objects/textures/coin.png"
+</object>
+# object 11
+<object>
+	P_type= "Gold"
+	P_amount= "5"
+	P_texture= "media/objects/textures/coin.png"
+</object>
+# object 12
+<object>
+	P_type= "Gold"
+	P_amount= "10"
+	P_texture= "media/objects/textures/coin.png"
+</object>
+# object 13
+<object>
+	P_type= "Gold"
+	P_amount= "25"
+	P_texture= "media/objects/textures/coin.png"
+</object>
+# object 14
+<object>
+	P_type= "Gold"
+	P_amount= "50"
+	P_texture= "media/objects/textures/coin.png"
+</object>
+# object 15
+<object>
+	P_type= "Gold"
+	P_amount= "100"
+	P_texture= "media/objects/textures/coin.png"
+</object>
+# object 16
+<object>
+	P_type= "Gold"
+	P_amount= "200"
+	P_texture= "media/objects/textures/coin.png"
+</object>
+# object 17
+<object>
+	P_type= "Gold"
+	P_amount= "500"
+	P_texture= "media/objects/textures/coin.png"
+</object>
+# object 18
+<object>
+	P_type= "Gold"
+	P_amount= "1000"
+	P_texture= "media/objects/textures/coin.png"
+</object>
+# object 19
+<object>
+	P_type= "Gold"
+	P_amount= "10000"
+	P_texture= "media/objects/textures/coin.png"
+</object>
+# object 20
+<object>
+	P_type= "AnyObject"
+	P_name= "Apple"
+	P_texture= "media/objects/textures/apple.png"
+</object>
+# object 21
+<object>
+	P_type= "AnyObject"
+	P_name= "Poppy"
+	P_texture= "media/objects/textures/poppy.png"
+</object>
+# object 22
+<object>
+	P_type= "AnyObject"
+	P_name= "Arnaud The Great's Sword"
+	P_texture= "media/objects/textures/arnauds_sword_whithout_gem.png"
+</object>
+# object 23
+<object>
+	P_type= "AnyObject"
+	P_name= "Sword of the Ancients"
+	P_texture= "media/objects/textures/sword_of_the_ancients.png"
+</object>
+# object 24
+<object>
+	P_type= "AnyObject"
+	P_name= "Gem of the Ancients"
+	P_texture= "media/objects/textures/gem_of_the_ancients.png"
+</object>
+# object 25
+<object>
+	P_type= "FusionStone"
+	P_name= "Snaky Stone"
+	P_creatures= "11,12,"
+	P_buyPrice= "1000"
+	P_buildPrice= "500"
+	P_resultingCreature= "13"
+	P_texture= "media/objects/textures/SnakyStone.png"
+</object>

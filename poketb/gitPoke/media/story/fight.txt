@@ -1,0 +1,145 @@
+28
+# dialogue 0:
+<Dialog>
+	P_Type= "End"
+</Dialog>
+# dialogue 1:
+<Dialog>
+	P_Type= "Hit"
+</Dialog>
+#dialogue 2:
+<Dialog>
+	P_Type= "UseItem"
+</Dialog>
+#dialogue 3:
+<Dialog>
+	P_Type= "ChangeCreature"
+</Dialog>
+#dialogue 4: 
+<Dialog>
+	P_Type= "Run"
+</Dialog>
+#dialogue 5:
+<Dialog>
+	P_Type= "DeleteCreature"
+</Dialog>
+#dialogue 6: (réservé)
+<Dialog>
+	P_Type= ""
+</Dialog>
+#dialogue 7: (réservé)
+<Dialog>
+	P_Type= ""
+</Dialog>
+#dialogue 8: (réservé)
+<Dialog>
+	P_Type= ""
+</Dialog>
+#dialogue 9: (réservé)
+<Dialog>
+	P_Type= ""
+</Dialog>
+#dialogue 10:
+<Dialog>
+	P_Type= "End"
+	P_Text= "A wild $SelectedEnemy$ appeared"
+</Dialog>
+# dialogue 11:
+<Dialog>
+	P_Type= "Message"
+	P_Text= "What will you do ?"
+	P_StatAns= "00012Fight"
+	P_StatAns= "00013Item"
+	P_StatAns= "40000Run"
+	P_StatAns= "30000My Wims"
+</Dialog>
+# dialogue 12:
+<Dialog>
+	P_Type= "Message"
+	P_Text= "Choose an action"
+	P_DynAns= "10000AvaiableActions" // 10 000 = hit
+	P_StatAns= "00011Back"
+</Dialog>
+#dialogue 13:
+<Dialog>
+	P_Type= "Message"
+	P_Text= "Choose an item"
+	P_DynAns= "20000AvaiableItems" // 20 000 = use item
+	P_StatAns= "00011Back"
+</Dialog>
+#dialogue 14:
+<Dialog>
+	P_Type= "Message"
+	P_Text= "Are you sure ?"
+	P_StatAns= "00024Yes"
+	P_StatAns= "00011No"
+</Dialog>
+#dialogue 15:
+<Dialog>
+	P_Type= "Message"
+	P_Text= "Choose a Wim"
+	P_DynAns= "30000AvaiableCreatures" // 30 000 = change creature
+	P_StatAns= "00011Back"
+</Dialog>
+#dialogue 16:
+<Dialog>
+	P_Type= "End"
+	P_Text= "You won !"
+</Dialog>
+#dialogue 17:
+<Dialog>
+	P_Type= "End"
+	P_Text= "You lost !"
+</Dialog>
+#dialogue 18:
+<Dialog>
+	P_Type= "End"
+	P_Text= " "
+</Dialog>
+#dialogue 19:
+<Dialog>
+	P_Type= "Message"
+	P_Text= "You have to choose a Wym"
+	P_StatAns= "30000Pick a Wym" // 30 000 = change creature
+</Dialog>
+# dialogue 20:
+<Dialog>
+	P_Type= "End"
+	P_Text= "You can't escape!"
+</Dialog>
+# dialogue 21:
+<Dialog>
+	P_Type= "Message"
+	P_Text= "Your Wym inventory is full.Choose a Wym to remove"
+	P_DynAns= "50000AllCreatures" // 50 000 = delete creature
+</Dialog>
+# dialogue 22:
+<Dialog>
+	P_Type= "End"
+	P_Text= "Failed catching the wild $SelectedEnemy$!"
+</Dialog>
+# dialogue 23:
+<Dialog>
+	P_Type= "End"
+	P_Text= "You succeded catching the wild $SelectedEnemy$!"
+</Dialog>
+# dialogue 24:
+<Dialog>
+	P_Type= "End"
+	P_Text= "You ran away !"
+</Dialog>
+# dialogue 25:
+<Dialog>
+	P_Type= "End"
+	P_Text= "$SelectedCreature$ used $SelectedAction$ "
+</Dialog>
+# dialogue 26:
+<Dialog>
+	P_Type= "End"
+	P_Text= "Wild $SelectedEnemy$ used $SelectedAction$ "
+</Dialog>
+# dialogue 27:
+<Dialog>
+	P_Type= "End"
+	P_Text= "You selected $SelectedCreature$ "
+</Dialog>
